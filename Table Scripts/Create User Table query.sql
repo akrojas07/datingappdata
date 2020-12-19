@@ -4,6 +4,7 @@ create table dbo.Users(
 	[Password] varchar(255),
 	FirstName varchar(255),
 	LastName varchar(255),
+	PhotoId bigint,
 	CreatedDate datetime,
 	UpdatedDate datetime
 );
