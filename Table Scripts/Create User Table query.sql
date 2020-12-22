@@ -5,6 +5,10 @@ create table dbo.Users(
 	FirstName varchar(255),
 	LastName varchar(255),
 	PhotoId bigint,
+	[Location] varchar(255),
+	Gender bit, 
+	Interests varchar(255),
+	About varchar(255),
 	CreatedDate datetime,
 	UpdatedDate datetime
 );
