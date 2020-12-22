@@ -9,6 +9,7 @@ create table dbo.Users(
 	Gender bit, 
 	Interests varchar(255),
 	About varchar(255),
+	[Status] bit,
 	CreatedDate datetime,
 	UpdatedDate datetime
 );
