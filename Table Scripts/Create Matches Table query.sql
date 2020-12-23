@@ -4,5 +4,7 @@ create table dbo.Matches
 	FirstUserId bigint not null foreign key references dbo.Users(Id),
 	SecondUserId bigint not null foreign key references dbo.Users(Id),
 	Liked bit,
-	[Matched] bit
+	[Matched] bit,
+	CreatedDate date,
+	UpdatedDate date
 );
